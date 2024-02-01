@@ -1,0 +1,18 @@
+[package]
+name = "cell-automata-1d"
+version = "0.1.2"
+edition = "2021"
+description = "Look Stephen Wolfram's cellular automata: https://www.wolframscience.com/nks/p170--cellular-automata/"
+license = "GPL-3.0-or-later"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "example"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "1.4.0"
